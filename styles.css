@@ -1,0 +1,28 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    width: 200px;
+    background-color: #dddddd;
+    color: #8b0e3a;
+}
+
+li a.active {
+    background-color: #8b0e3a;
+    color: #efefef;
+}
+
+li a:hover:not(.active) {
+    color: #f0d2d2;
+    background-color: #555;
+}
